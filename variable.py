@@ -26,3 +26,8 @@ first_name = 'bretlee'
 print(message)
 last_name = 'privett'
 print(message)
+full_name = first_name =' '+ last_name
+print(message)
+print(full_name.title())
+print(message)
+first_name = 'bretlee'

@@ -98,3 +98,5 @@ import this
 # I learned how to strip whitespace from strings.
 name = '\t\teric'
 print("I can strip tabs from my name: " + name.strip())
+
+hgfy

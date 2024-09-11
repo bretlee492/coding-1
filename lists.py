@@ -26,3 +26,30 @@ for dog in dogs:
 dogs = ['German shorthaired pointer', 'Labrador retreiver', 'English cockerspaneil']
 for dog in dogs:
     print('I like ' + dog + "s.")
+dogs = ['German shorthaired pointer', 'Labrador retreiver', 'English cockerspaneil']
+for dog in dogs:
+    print('I like' +dog +"s.")
+    print('No, i really like ' + dog +'s!\n')
+print("\nThat's just how i feel about dogs.")
+print(dog.title())
+dogs = ['German shorthaired pointer', 'Labrador retreiver', 'English cockerspaneil']
+print("Results for the dog show are as follows:\n")
+for index, dog in enumerate(dogs):
+    place = str(index)
+    print("Place: " + place + " Dog: " + dog.title())
+dogs = ['German shorthaired pointer', 'Labrador retreiver', 'English cockerspaneil']
+print("Results for the dog show are as follows:\n")
+for index, dog in enumerate(dogs):
+    place = str(index + 1)
+    print("Place: " + place + " Dog: " + dog.title())
+dogs = ['German shorthaired pointer', 'Labrador retreiver', 'English cockerspaneil'] 
+for dog in dogs:
+    print(dogs)
+dogs = ['German shorthaired pointer', 'Labrador retreiver', 'English cockerspaneil']
+for dog in dogs:
+    print('I like ' + dogs + "s.")
+dogs = ['German shorthaired pointer', 'Labrador retreiver', 'English cockerspaneil']
+dogs[0] = 'German shorthaired pointer'
+print(dogs)
+dogs = ['German shorthaired pointer', 'Labrador retreiver', 'English cockerspaneil']
+print(dogs.index('Lbrador retreiver'))

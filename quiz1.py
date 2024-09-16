@@ -1,0 +1,26 @@
+message = ('jaden')
+print(message)
+message = ('loves')
+print(message)
+message = ('harley')
+print(message)
+message =('Jaden')
+print(message)
+message =('Loves')
+print(message)
+message = ('Harley')
+print(message)
+numbers = [2, 3, 4, 5]
+print(message)
+numbers = [5, 4, 3, 2]
+print(message)
+numbers = 4
+message = ('jaden loves harley')
+print (message)
+message = ('[2, 3, 4, 5]')
+print(message)
+message = ('[14]')
+print(message)
+message = ('jaden loves harley [14]')
+print(message)
+

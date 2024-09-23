@@ -363,3 +363,21 @@ print("My favorite numbers are " + str(numbers[0]) + ", " + str(numbers[1]) + ",
 names = ['Bretlee', 'Harley']
 numbers = [23, 2]
 print("%s's favorite number is %d, and %s's favorite number is %d." % (names[0].title(), numbers[0], names[1].title(), numbers[1]))
+words = ['bretlee', 'harley', 'jaden', ]
+print(words)
+w =  ['bretlee', 'harley', 'jaden', ]
+print(w)
+d = ['my name', 'my freinds name', 'my other freinds name', ]
+print(d)
+# The player's power starts out at 75.
+power = 75
+
+# The player is allowed to keep playing as long as their power is over 0.
+while power > 0:
+    print("You are still playing, because your power is %d." % power)
+    # Your game code would go here, which includes challenges that make it
+    #   possible to lose power.
+    # We can represent that by just taking away from the power.
+    power = power - 1
+    
+print("\nOh no, your power dropped to 0! Game Over.")

@@ -365,9 +365,9 @@ numbers = [23, 2]
 print("%s's favorite number is %d, and %s's favorite number is %d." % (names[0].title(), numbers[0], names[1].title(), numbers[1]))
 words = ['bretlee', 'harley', 'jaden', ]
 print(words)
-w =  ['bretlee', 'harley', 'jaden', ]
+w =  ['bretlee', 'harley', 'jaden' , 'are' , 'best' 'friends', 'and' , 'they' , 'go' , 'on' 'side' , 'adventures' , 'and' , 'bird' , 'hunting', ]
 print(w)
-d = ['my name', 'my freinds name', 'my other freinds name', ]
+d = ['my name', 'my freinds name', 'my other freinds name' 'together' , 'good' , 'amigos' , 'also' , 'them' , 'green' , 'onto' , 'move' , 'mission' , 'also' , 'fly' , 'find food', ]
 print(d)
 # The player's power starts out at 75.
 power = 75

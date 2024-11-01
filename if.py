@@ -118,14 +118,17 @@ elif 'peso' in dogs:
   print("Hello, Peso!")
 elif 'monty' in dogs:
   print("Hello, Monty!")
-  dogs_we_know = ['willie', 'hootz', 'peso', 'monty', 'juno', 'turkey']
+
+dogs_we_know = ['willie', 'hootz', 'peso', 'monty', 'juno', 'turkey']
 dogs_present = ['willie', 'hootz']
+
 # Go through all the dogs that are present, and greet the dogs we know.
 for dog in dogs_present:
- if dog in dogs_we_know:
+ if dog in dogs_we_know: 
   print("Hello, %s!" % dog.title())
-  if 0:
-   print("This evaluates to True.")
+
+if 0:
+  print("This evaluates to True.")
 else:
   print("This evaluates to False.")
 

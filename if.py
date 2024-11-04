@@ -169,4 +169,11 @@ if None:
   print("This evaluates to True.")
 else:
   print("This evaluates to False.")
-  
+  list = ['r' , 'g' , 'r' , 'b' , 'b' , 'r' , 'g' , 'g' , 'b' , 'r' , ] 
+  sum_of_aliens= 0
+  message = 'r' , '5'
+  print(message) 
+  message = 'g' , '10'
+  print(message)
+  message = 'b' , '20' 
+  print(message)  

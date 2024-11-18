@@ -259,36 +259,28 @@ print("\nI'm so happy to know %s!\n" % new_name.title())
   print("\n[1] See a list of friends.")
  print("[2] Tell me about someone new.")
  print("[q] Quit.")
- return input("What would you like to do? ")
+ input("What would you like to do? ")
  def show_names():
 # Shows the names of everyone who is already in the list.
   print("\nHere are the people I know.\n")
  for name in names:
- choice == '1':
- show_names()
-elif choice == '2':
- get_new_name()
-elif choice == 'q':
- print("\nThanks for playing. Bye.")
-else:
- print("\nI didn't understand that choice.\n")
+("\nI didn't understand that choice.\n")
  import os
 # Greeter is a terminal application that greets old friends warmly,
 # and remembers new friends.
 
 ### FUNCTIONS ###
-def display_title_bar():
+ display_title_bar():
 # Clears the terminal screen, and displays a title bar.
  os.system('clear')
-print("\t**********************************************")
-print("\t*** Greeter - Hello old and new friends! ***")
-print("\t**********************************************")
-def get_user_choice():
+ print("\t**********************************************")
+ print("\t*** Greeter - Hello old and new friends! ***")
+ print("\t**********************************************")
+ def get_user_choice():
 # Let users know what they can do.
  print("\n[1] See a list of friends.")
-print("[2] Tell me about someone new.")
-print("[q] Quit.")
-return input("What would you like to do? ")
+ print("[2] Tell me about someone new.")
+("What would you like to do? ")
 def show_names():
 # Shows the names of everyone who is already in the list.
  print("\nHere are the people I know.\n")
@@ -368,14 +360,13 @@ new_animal = input("Enter 'quit' to quit: ")
 if new_animal != 'quit':
  animals.append(new_animal)
 # Try to save the animals to the file 'animals.pydata'.
-try:
  file_object = open('animals.pydata', 'wb')
 pickle.dump(animals, file_object)
 file_object.close()
 print("\nI will remember the following animals: ")
 for animal in animals:
  print(animal)
-except Exception as e:
+Exception 
 print(e)
 print("\nI couldn't figure out how to store the animals. Sorry.")
 import os
@@ -395,7 +386,7 @@ def get_user_choice():
  print("\n[1] See a list of friends.")
 print("[2] Tell me about someone new.")
 print("[q] Quit.")
-return input("What would you like to do? ")
+input("What would you like to do? ")
 def show_names():
 # Shows the names of everyone who is already in the list.
  print("\nHere are the people I know.\n")
@@ -417,9 +408,8 @@ def load_names():
      names = pickle.load(file_object)
      file_object.close()
      return names
- except Exception as e:
+Exception 
 print(e)
-return []
 def quit():
    # This function dumps the names into a file, and prints a quit message.
    try:

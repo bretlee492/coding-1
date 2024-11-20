@@ -264,8 +264,6 @@ print("\nI'm so happy to know %s!\n" % new_name.title())
 # Shows the names of everyone who is already in the list.
   print("\nHere are the people I know.\n")
  for name in names:
-("\nI didn't understand that choice.\n")
- import os
 # Greeter is a terminal application that greets old friends warmly,
 # and remembers new friends.
 
@@ -343,7 +341,7 @@ try:
  file_object = open('animals.pydata', 'rb')
 animals = pickle.load(file_object)
 file_object.close()
-except:
+
 animals = []
 # Show the animals that are stored so far.
 if len(animals) > 0:
@@ -436,5 +434,5 @@ elif choice == '2':
 elif choice == 'q':
  quit()
 print("\nThanks for playing. Bye.")
-else:
+ else:
 print("\nI didn't understand that choice.\n") 
